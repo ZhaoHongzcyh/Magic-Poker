@@ -1,0 +1,17 @@
+.new{
+	position:fixed;
+	bottom:0px;
+	top:40%;
+	width:50%;
+	/*transform:translateY(100%);*/
+	/*animation: newimg 3s 1;*/
+}
+
+@keyframes newimg{
+	from{
+		transform:translateY(100%);
+	}
+	to{
+		transform:translateY(-100%);
+	}
+}

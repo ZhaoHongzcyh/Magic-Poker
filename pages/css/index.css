@@ -1,0 +1,53 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+html{
+	font-size:62.5%;
+}
+.body{
+	position:absolute;
+	width:30rem;
+	height:30rem;
+	top:50%;
+	margin-top:-15rem;
+	left:50%;
+	margin-left:-15rem;
+	line-height: 30rem;
+	transform-style:preserve-3d;
+	perspective: 50%;
+	border:1px solid red;
+}
+.box{
+	position:absolute;
+	width:100%;
+	height:100%;
+	text-align: center;
+	color:white;
+	background-color:rgba(234,122,42,0.3);
+}
+
+.box1{
+	transform:rotateY(90deg) translateZ(15rem);
+	background-color:rgba(213,67,178,0.3);
+}
+.box2{
+	transform:rotateY(90deg) translateZ(-15rem);
+	background-color:rgba(12,23,56,0.6);
+}
+.box3{
+	transform:rotateX(90deg) translateZ(15rem);
+	background-color:rgba(98,37,123,0.8);
+}
+.box4{
+	transform:rotateX(90deg) translateZ(-15rem);
+	background-color:rgba(203,23,89,0.8);
+}
+.box5{
+	transform:translateZ(15rem);
+	background-color:rgba(45,10,89,0.3);
+}
+.box6{
+	transform:translateZ(-15rem);
+	background-color:rgba(26,89,123,0.4);
+}

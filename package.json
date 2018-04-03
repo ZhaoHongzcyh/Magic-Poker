@@ -1,0 +1,23 @@
+{
+  "name": "magic-poker",
+  "version": "1.0.0",
+  "description": "magic-poker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZhaoHongzcyh/Magic-Poker.git"
+  },
+  "author": "ZhaoHongzcyh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZhaoHongzcyh/Magic-Poker/issues"
+  },
+  "homepage": "https://github.com/ZhaoHongzcyh/Magic-Poker#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
