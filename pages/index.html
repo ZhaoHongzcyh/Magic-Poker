@@ -31,18 +31,11 @@
 		window.onload = function(){
 			window.addEventListener("deviceorientation",function(e){
 				
-//				document.getElementById("info").innerText = e.beta;
 				$("#body").css({
-					transform:"rotateZ(" + (e.alpha - 90) + "deg) rotateX(" + e.beta + "deg)"
+					transform:"rotateZ(" + e.alpha + "deg) rotateX(" + e.beta + "deg)"
 				})
-//				alert(2);
 				socket.emit("transform",{alpha:e.alpha,beta:e.beta});
 			},false)
 		}
-//		setInterval(function(){
-//			$("#body").css({
-//					transform:"rotateZ(" + (100 - 90) + "deg) rotateX(" + 200 + "deg)"
-//				})
-//		})
 	</script>
 </html>
