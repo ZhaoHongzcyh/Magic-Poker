@@ -1,4 +1,4 @@
-###很高兴你能来到我的github哟
+## 通过socket.io实现的一个简单demo（3D正方体旋转）
 ##使用方法
 #1.通过git clone的方式将该项目克隆到本地
 #2.在项目根目录下方运行 node index.js命令
